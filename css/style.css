@@ -1,0 +1,298 @@
+.menu-box {
+  text-align: center;
+  display:block ;
+  border: 2px;
+  padding: 10px;
+  margin:20px ;
+}
+.menu-box ul{
+
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-box li{
+    margin: 0;
+}
+.menu-box a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+     background-color: blue; 
+  border: 2px solid blue;   
+  padding: 8px 16px;          
+  border-radius: 8px;           
+  transition: all 0.4s ease; 
+  display: inline-block;
+}
+.menu-box a:hover{
+  transform: scale(1.1);
+  opacity: 0.75;
+}
+  
+
+.titre-apropos {         
+  text-align: center;   
+}
+.titre-encadre{
+padding: 20px;
+text-align: center;
+border-radius: 8px;
+width: 80%;
+margin: 20px auto;
+}
+.titre-encadre::before{
+  content: "";
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(125, red blue);
+}
+
+.black{ background-color: black;}
+.blue{ background-color: blue;}
+.green{ background-color: green;}
+.yellow{ background-color: yellow;}
+.green{ background-color: green;}
+.brown{ background-color: rgb(34, 189, 57);}
+.red{ background-color: red;}
+.retour1-block{
+  position: left;
+text-decoration: none;
+}
+.c1{
+  position: left;
+  text-decoration: none;
+}
+.c2{
+  text-decoration: none;
+  position: left;
+}
+.c3{
+  text-decoration: none;
+  position: left;
+}
+.c4{
+  text-decoration: none;
+  position: left;
+}
+.c5{
+  position: left;
+  text-decoration: none;
+  transition: 0.3;
+}
+.compétences{
+  color: green;
+
+}
+.retour1-block{
+  text-decoration:none
+}
+.bloc-bleu{
+  border: 10px;
+  background-color: yellow;
+  padding: 10px;
+  margin: 20px auto;
+}
+.bloc-bleu{
+  border: 10px;
+  background-color: blue;
+  padding: 10px;
+  margin: 5px auto;
+}
+.bloc-red{
+  border: 10px;
+  background-color: red;
+  padding: 10px;
+  margin: auto;
+}
+.compétences{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  
+}
+.compétences a{
+  display: block;
+  border: 2px solid red;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  transition: 0.3ms;
+  
+}
+#compt1 :hover{
+  transform: scale(1.1);
+}
+#compt2 :hover{
+  transform: scale(1.1);
+}
+#compt3 :hover{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+.photo{
+  width: 300px;
+  height: 150px;
+}
+.R1{
+  position: left;
+  text-decoration: none;
+}
+
+
+
+.resto{
+  background: url(../images/dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  color: white;
+
+}
+.fond1{
+  background: url(../images/last_img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  margin: 0;
+}
+.fond2{
+  background: url(../images/last_img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0;
+  color: white;
+}
+.fond3{
+  background: url(../images/last_img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.acceuil{
+  background: url(../images/last_img.jpeg);
+  background-size: cover;
+  background-repeat:no-repeat ;
+}
+.cp1{
+  background: url(../images/last_img.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proj{
+  background: url(../images/last_img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.comp{
+  background: url(../images/last_img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact{
+  background: url(../images/last_img.jpeg);
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: white;
+}
+.projet figcaption img{
+  height: 5px;
+  width: 5px;
+}
+.menu_projets{
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+  padding: 0;
+  
+
+}
+.projets figcaption{
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+.projets{
+  position: relative;
+  overflow: hidden;
+  transition: all(1.1) ease;
+
+}
+.zoom{
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+}
+
+
+#alg{
+  text-align: center;
+}
+.projets:hover{
+  background-color: brown;
+  color: white;
+  transform: scale(1.1);
+}
+#hyaa a {
+  text-align: center;
+}
+
+.logo p:nth-child(2)::before{
+  content: "w";
+}
+footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  transition: background 0.8s ease;
+  position: center right
+
+}
+footer:hover{
+background: linear-gradient(90deg,blue, white);
+  
+}
+.socials a {
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: transform  0.3s ease;
+
+}
+.socials a:hover{
+  transform: scale(1.8);
+  color: blue;
+  opacity: 1;
+}
+
+
+

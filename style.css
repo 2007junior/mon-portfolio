@@ -1,3 +1,5 @@
+
+
 .menu-box {
   text-align: center;
   display:block ;
@@ -305,6 +307,12 @@ background: linear-gradient(135deg,blue, white);
 }
 .texte-encadre:hover::before {
   left: 125%;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
 }
 
 

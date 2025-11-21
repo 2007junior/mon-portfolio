@@ -133,12 +133,6 @@ text-decoration: none;
   transform: scale(1.1);
 }
 
-
-
-
-
-
-
 .photo{
   width: 300px;
   height: 150px;
@@ -147,8 +141,6 @@ text-decoration: none;
   position: left;
   text-decoration: none;
 }
-
-
 
 .resto{
   background: url(../images/dark.jpg);
@@ -261,7 +253,7 @@ h1{
 }
 
 .logo p:nth-child(2)::before{
-  content: "w";
+  content: "";
 }
 footer{
   text-align: center;
@@ -290,7 +282,7 @@ background: linear-gradient(135deg,blue, white);
   opacity: 1;
 }
 .texte-encadre::before {
-  content: "";
+  
   position: absolute;
   top: 0;
   left: -75%;
@@ -312,4 +304,17 @@ body{
   font-size: clam(1.5rem 0.9rem+1vw 2.3rem);
 }
 
+@media (max-width: 768px) {
+
+  .menu-box ul {
+    display: grid;                    
+    grid-template-columns: 1fr;     
+   gap: 12px;                         
+  }
+
+  .menu-box a {
+    width: 100%;                
+    text-align: center;
+  }
+}
 

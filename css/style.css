@@ -4,19 +4,20 @@
   border: 2px;
   padding: 10px;
   margin:20px ;
-}menu
-.-box ul{
+}
+.menu-box ul{
 
     display: flex;
     justify-content:center;
     gap:20px;
     list-style: none;
     padding: 0;
-    margin: 0;
-    grid: template columns 1fr;
+   margin: 0;
+   flex-grow: 1;  
 }
 .menu-box li{
     margin: 0;
+    
 }
 .menu-box a{
     text-decoration: none;
@@ -79,6 +80,7 @@ text-decoration: none;
 }
 .compétences{
   color: green;
+  flex-grow: 1;
 
 }
 .retour1-block{

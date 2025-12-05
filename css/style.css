@@ -199,7 +199,7 @@ h1{
   color: white;
 }
 .menu_projets{
-  display: flex;
+
   gap: 20px;
   justify-content: center;
   padding: 0;
@@ -241,6 +241,7 @@ h1{
 
 #alg{
   text-align: center;
+  
 }
 .projets:hover{
   background-color: brown;

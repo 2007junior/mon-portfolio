@@ -31,7 +31,7 @@
 }
 .menu-box a:hover{
   transform: scale(1.1);
-  opacity: 0.5;
+  opacity: 1;
 }
   
 .titre-apropos {         
